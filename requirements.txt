@@ -1,0 +1,6 @@
+gtts
+pyttsx3
+playsound
+beautifulsoup4
+selenium
+chromedriver-binary
