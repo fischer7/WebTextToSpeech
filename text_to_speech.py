@@ -27,7 +27,7 @@ engine = pyttsx3.init()
 engine.setProperty("rate", 170)
 
 # The Current index is here to help you move forward in the text
-currentIndex = 0 
+currentIndex = 43
 
 lastText = ''
 visible_text = [element.get_text(strip=True) for element in soup.find_all(text=True) if element.parent.name not in ["style", "script", "head", "title"]]
